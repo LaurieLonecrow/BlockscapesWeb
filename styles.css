@@ -1,3 +1,4 @@
+/* Universal */
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +7,17 @@ body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
 }
+
+li:hover {
+  color: #40bf4f;
+}
+
+h1 {font-size: 3rem;}
+h2 {font-size: 2.2rem;}
+h3 {font-size: 2rem;}
+h4 {font-size: 1.8rem;}
+p {font-size: 1.6rem;}
+/* Header and Nav */
 
 nav {
   display: flex;
@@ -16,11 +28,13 @@ nav {
 }
 
 .logo {
+  margin-left: 3%;
+  font-size: 1.2rem;
   max-width: fit-content;
   line-height: .5;
 }
 
-ul {
+nav ul {
   list-style: none;
   display: flex;
   margin-left: auto;
@@ -28,7 +42,12 @@ ul {
   margin-top: -10px
 }
 
-li {
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav li {
   font-size: 1.5rem;
   text-decoration: none;
   margin: 30px;
@@ -47,8 +66,99 @@ li {
   font-size: 1.5rem;
 }
 
-.header-container {
+.quote-button:hover {
+  background-color: #77e684;
+  color: gray;
+}
 
+.header-container {
   background-image: url(pics/OutdoorFireplace.jpg);
   height: 850px;
 }
+
+/* Sections */
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.service-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f2ed;
+  color: #0d3c00;
+}
+
+.service-header {
+  display: flex;
+  align-content: space-around;
+  align-items: baseline;
+  border-bottom: 1px solid;
+  border-color: #c9e6cb;
+}
+
+.service-header h1 {
+  flex: 2;
+  width: 100%;
+}
+
+.service-header p {
+  margin-right: 25%;
+  color: #40bf4f;
+}
+
+.service-detail {
+display: flex;
+justify-content: space-around;
+}
+
+.service-column {
+  flex: 1;
+  margin: 2%;
+}
+
+.service-column h1 {
+  line-height: 2.2;
+}
+
+.service-column p {
+  line-height: 2.2;
+}
+
+.service-column h2, h3 {
+  color: #40bf4f;
+  font-weight: 100;
+}
+
+
+/* About */
+
+
+/* Footer */
+ footer {
+   display: flex;
+   padding: 10%;
+   background-color: #0d3c00;
+   color: ivory;
+ }
+
+.footer-column {
+  flex: 1;
+  justify-content: center;
+}
+
+ .footer-column ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 1.1rem;
+   list-style: none;
+   margin-left: auto;
+ }
+
+ .footer-column li {
+   font-size: 1.5rem;
+   line-height: 2;
+ }
