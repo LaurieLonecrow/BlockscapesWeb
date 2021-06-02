@@ -17,6 +17,24 @@ h2 {font-size: 2.2rem;}
 h3 {font-size: 2rem;}
 h4 {font-size: 1.8rem;}
 p {font-size: 1.6rem;}
+
+button {
+  margin-top: -15px;
+  padding: 2rem 2rem;
+  background-color: #40bf4f;
+  color: white;
+  border-radius: 50px;
+  border-color: #40bf4f;
+  border-width: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: #77e684;
+}
+
 /* Header and Nav */
 
 nav {
@@ -53,26 +71,8 @@ nav li {
   margin: 30px;
 }
 
-.quote-button {
-  margin-top: -15px;
-  padding: 0 2rem;
-  background-color: #40bf4f;
-  color: white;
-  border-radius: 50px;
-  border-color: #40bf4f;
-  border-width: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-}
-
-.quote-button:hover {
-  background-color: #77e684;
-  color: gray;
-}
-
 .header-container {
-  background-image: url(pics/OutdoorFireplace.jpg);
+  background-image: url(pics/OutdoorFireplace-bscapes.jpg);
   height: 850px;
 }
 
@@ -134,7 +134,70 @@ justify-content: space-around;
 
 
 /* About */
+.about-section {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
 
+.about-image {
+  flex: 3;
+}
+
+.about-image img {
+  max-width: 1000px;
+}
+
+.about-detail {
+  flex: 2;
+  line-height: 2.2;
+}
+
+.about-detail button {
+  margin: 30px;
+}
+
+/* Projects */
+
+ .projects-section {
+   display: flex;
+   flex-direction: column;
+   background-color: #f3f2ed;
+   color:#0d3c00;
+ }
+.projects-heading {
+  display: flex;
+  gap: 5%;
+}
+
+.projects-title {
+  flex: 2;
+}
+
+.projects-subtitle {
+  flex: 2;
+margin-left: auto;
+margin-right: auto;
+}
+
+.projects-subtitle h4 {
+  font-weight: 100;
+}
+
+.projects-subtitle p {
+  margin-right: 25%;
+  color: #40bf4f;
+}
+
+.projects-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ .projects-column img {
+   max-width: 550px;
+ }
 
 /* Footer */
  footer {
@@ -145,20 +208,26 @@ justify-content: space-around;
  }
 
 .footer-column {
-  flex: 1;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.footer-column h3 {
+  padding-left: 40px;
+  align-self: center;
 }
 
  .footer-column ul {
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
-   font-size: 1.1rem;
+   justify-content: center;
    list-style: none;
-   margin-left: auto;
  }
 
  .footer-column li {
    font-size: 1.5rem;
    line-height: 2;
+   align-self: center;
  }
