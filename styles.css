@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
+  line-height: 2.2;
 }
 
 li:hover {
@@ -36,6 +37,11 @@ button:hover {
   background-color: #77e684;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+}
 /* Header and Nav */
 
 nav {
@@ -79,12 +85,6 @@ nav li {
 
 /* Sections */
 
-section {
-  display: flex;
-  flex-direction: column;
-  padding: 5%;
-}
-
 .service-section {
   display: flex;
   flex-direction: column;
@@ -120,19 +120,10 @@ justify-content: space-around;
   margin: 2%;
 }
 
-.service-column h1 {
-  line-height: 2.2;
-}
-
-.service-column p {
-  line-height: 2.2;
-}
-
 .service-column h2, h3 {
   color: #40bf4f;
   font-weight: 100;
 }
-
 
 /* About */
 .about-section {
@@ -150,8 +141,8 @@ justify-content: space-around;
 }
 
 .about-detail {
+  margin: -50px;
   flex: 2;
-  line-height: 2.2;
 }
 
 .about-detail button {
@@ -166,13 +157,18 @@ justify-content: space-around;
    background-color: #f3f2ed;
    color:#0d3c00;
  }
+
 .projects-heading {
   display: flex;
-  gap: 5%;
 }
 
 .projects-title {
   flex: 2;
+  font-weight: 100;
+}
+
+.projects-title h2 {
+  font-weight: 200;
 }
 
 .projects-subtitle {
@@ -186,8 +182,8 @@ margin-right: auto;
 }
 
 .projects-subtitle p {
-  margin-right: 25%;
   color: #40bf4f;
+  padding-left: 220px;
 }
 
 .projects-detail {
@@ -203,10 +199,15 @@ margin-right: auto;
 /* Footer */
  footer {
    display: flex;
-   padding: 10%;
+   flex-direction: column;
+   padding: 5% 0;
    background-color: #0d3c00;
    color: ivory;
  }
+
+.footer-info {
+  display: flex;
+}
 
 .footer-column {
   flex: 2;
@@ -229,6 +230,11 @@ margin-right: auto;
 
  .footer-column li {
    font-size: 1.5rem;
-   line-height: 2;
    align-self: center;
+ }
+
+ .copyright {
+   position: relative;
+   margin: 200px auto 0;
+   font-weight: 100;
  }
