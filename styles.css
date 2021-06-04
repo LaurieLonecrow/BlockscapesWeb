@@ -239,3 +239,12 @@ margin-right: auto;
    margin: 200px auto 0;
    font-weight: 100;
  }
+
+ @media screen and (min-width: 401px) {
+body {
+    flex: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+}
