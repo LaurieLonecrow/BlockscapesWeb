@@ -41,7 +41,7 @@ button:hover {
 section {
   display: flex;
   flex-direction: column;
-  padding: 40px 50px;
+  padding: 8%;
 }
 
 /* Header and Nav */
@@ -79,8 +79,8 @@ nav li {
 }
 
 .header-container {
-  background-image: url(pics/OutdoorFireplace-bscapes.jpg);
-  height: 850px;
+max-width: 100%;
+max-height: 850px;
 }
 
 
@@ -88,12 +88,24 @@ nav li {
 #nav-mobile {
   display: none;
 }
-.logo-mobile {
+
+.mobile-header {
   display: none;
 }
 
+.mobile-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-logo h2, h4{
+  margin-block-end: 0;
+  margin-block-start: .33em;
+}
+
 .mobile-icon {
-  display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay {
@@ -201,7 +213,8 @@ justify-content: space-around;
 }
 
 .about-image img {
-  max-width: 1000px;
+  max-width: 100%;
+  max-height: 500px;;
 }
 
 .about-detail {
@@ -249,12 +262,12 @@ margin-right: auto;
 }
 
 .projects-detail {
-  display: flex;
+ display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
- .projects-column img {
+ .projects-image {
    max-width: 550px;
  }
 
@@ -304,7 +317,12 @@ margin-right: auto;
 
  @media screen and (max-width: 500px) {
 
-.logo-mobile {
+   section {
+   padding: 0;
+     width: 100vw;
+   }
+
+.mobile-header {
 display: flex;
 padding: 5%;
 }
@@ -318,8 +336,54 @@ padding: 5%;
      display: none;
    }
 
-.header-container {
-display: none;
+.service-section h2 {
+  padding: 0 10px;
 }
 
+.service-header {
+padding: 0 10px;
+}
+
+.service-detail {
+flex-direction: column;
+padding: 0 10px;
+}
+
+.about-section {
+  flex-direction: column;
+}
+
+.about-detail {
+  padding: 0 10px;
+}
+
+.about-detail button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-heading {
+  padding: 0 10px;
+}
+
+.projects-detail {
+  flex-direction: column;
+}
+
+.projects-image {
+width: 100%;
+height: auto;
+}
+
+.footer-info {
+flex-direction: column;
+}
+
+.footer-column h3 {
+  padding-left: 0;
+}
+
+.footer-column ul {
+  padding-inline-start: 0;
+}
 }
