@@ -153,8 +153,8 @@ max-height: 850px;
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: -50px;
+  right: 5px;
   font-size: 60px;
 }
 

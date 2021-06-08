@@ -17,7 +17,7 @@
 
 <body>
 
-  <header>
+  <header id="home">
     <nav>
       <div class="mobile-header">
         <div class="mobile-logo">
@@ -34,17 +34,21 @@
         <ul>
           <div>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <li href="/">Home</li>
-            <a href="#about">
+            <a href="/" onclick="closeNav()">
+              <li>Home</li>
+            </a>
+            <a href="#about" onclick="closeNav()">
               <li>About</li>
             </a>
-            <a href="#services">
+            <a href="#services" onclick="closeNav()">
               <li>Services</li>
             </a>
-            <a href="#projects">
+            <a href="#projects" onclick="closeNav()">
               <li>Projects</li>
             </a>
-            <li>Contact</li>
+            <a href="#footer" onclick="closeNav()">
+              <li>Contact</li>
+            </a>
           </div>
         </ul>
       </div>
@@ -55,7 +59,9 @@
           <h4>Custom Hardscapes Service</h4>
         </div>
         <ul>
-          <li href="/">Home</li>
+          <a href="#home">
+            <li>Home</li>
+          </a>
           <a href="#about">
             <li>About</li>
           </a>
@@ -65,7 +71,10 @@
           <a href="#projects">
             <li>Projects</li>
           </a>
-          <li>Contact</li>
+          <a href="#footer">
+            <li>Contact</li>
+          </a>
+
         </ul>
         <button class="quote-button" type="button" name="button">Get a Quote</button>
       </div>
@@ -147,7 +156,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="footer">
     <div class="footer-info">
       <div class="footer-column">
         <h3>Contact Info</h3>
