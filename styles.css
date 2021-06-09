@@ -98,7 +98,7 @@ max-height: 850px;
   flex-direction: column;
 }
 
-.mobile-logo h2, h4{
+.mobile-logo h2, .mobile-log h4{
   margin-block-end: 0;
   margin-block-start: .33em;
 }
@@ -257,18 +257,16 @@ margin-right: auto;
   font-weight: 100;
 }
 
-.projects-subtitle {
-  /* color: #40bf4f; */
-}
-
 .projects-detail {
- display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 5px;
+  overflow: auto;
+  white-space: nowrap;
 }
 
  .projects-image {
-   max-width: 550px;
+   max-width: 500px;
  }
 
 /* Footer */
