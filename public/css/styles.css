@@ -292,6 +292,7 @@ margin-right: auto;
 .footer-column h3 {
   padding-left: 40px;
   align-self: center;
+  padding-left: 0;
 }
 
  .footer-column ul {
@@ -299,6 +300,7 @@ margin-right: auto;
    flex-direction: column;
    justify-content: center;
    list-style: none;
+   padding-inline-start: 0;
  }
 
  .footer-column li {
@@ -381,11 +383,4 @@ height: auto;
 flex-direction: column;
 }
 
-.footer-column h3 {
-  padding-left: 0;
-}
-
-.footer-column ul {
-  padding-inline-start: 0;
-}
 }
