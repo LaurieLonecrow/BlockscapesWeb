@@ -293,7 +293,7 @@ margin-right: auto;
 
 .terms-section-detail {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .terms-numbers {

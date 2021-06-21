@@ -1,0 +1,71 @@
+[
+  {
+  "heading": "DESCRIPTION OF WORK",
+  "num": ["1a.","1b.","1c.","1d."],
+  "description": [
+    "Blockscapes, LLC (the contractor) shall carry out and complete hardscape works described in the Estimate document in a good and workman like manner and shall have no obligation to execute any further work unless otherwise agreed in writing between the parties. If there shall be any discrepancy between any specification and any drawing, the description contained in specification shall prevail over the drawing.",
+    "The contract documents shall contain the estimate, the specification plans and any other document referred to in the estimate. No qualification in any acceptance issued by the client shall form part of the contract unless specifically agreed to in writing by the contractor.",
+    "Only the items on the estimate specification are included, but all works are due for payment. All other requested works are excluded.",
+    "The client is responsible for obtaining any necessary planning permission for the works and the fulfilling of statutory requirements."
+]},
+{
+"heading": "ESTIMATE",
+"num": ["2a.","2b."],
+"description": [
+  "The contractor also reserves the right to increase the value of the contract due to changes in design or materials by the client after execution of the contract and may result in change order fees. See section on Change Orders.",
+  "Acceptance of the estimate involves acceptance of these terms and conditions of the contract documents. This represents a binding contract between the parties. It should be noted by the client that any attempt to cancel by the client will involve the client being liable to cancellation fees, material restocking fees, design time already in progress, and any loss of expenses incurred as a result at the discretion of the contractor. (Up to a maximum of 50% of the total estimate.)"
+]},
+{
+"heading": "PAYMENT",
+"num": ["3a.","3b.","3c.","3d.", "3e.", "3f."],
+"description": [
+  "The client accepts that he/she will pay the contractor the full contract sum (all costs incurred) together with any tax properly chargeable upon the contract.",
+  "All accounts are net and do not provide for any discounts or retentions.",
+  "A deposit of ⅓ to ½ of the project cost will be required prior to the start date. Deposits will be held in escrow for a period of five days following payment and are fully refundable during this time.  Deposit amounts after the five day “grace period” are refundable less the amount of materials already purchased, design time already in progress, and any loss of expenses incurred as a result at the discretion of the contractor.",
+  "Larger contracts may be broken into payments by draw. Frequency and amount will be agreed upon by client and contractor.",
+  "Payments are immediately due on receipt of invoice.  The client will pay any extra works, or costs due to unknown difficulties or changes, which are not within the estimate.",
+  "The contractor will only ask for the estimate price, unless there are any unforeseeable difficulties, or the work has been increased. In either case all work will be paid for."
+]},
+{
+"heading": "SITE",
+"num": ["4a.", "4b.", "4c."],
+"description": [
+  "The client warrants the site is free of underground problems including pipes, cables, stumps, sewage drains and waste materials. Where problems are found underground the contractor shall be entitled to charge for additional work necessary and properly executed by the contractor to complete the work.",
+  "The contractor shall be free from any liabilities (including structural or accidental) when using machinery, except for accidents caused by its improper use.",
+  "Any material, refuse or debris required to be removed from the site to execute the contract, not in the estimate, may be billed for hauling and dumping."
+]},
+{
+"heading": "DELAY/DISRUPTION",
+"num": ["5a.", "5b."],
+"description": [
+  "The contractor undertakes to use all reasonable endeavors to complete the work within a reasonable time or by a specific date if agreed. Under no circumstances shall the contractor incur any liability to the client for any untimely performance.",
+  "The contractor shall not be held responsible for any delays caused by weather which make contract execution impossible."
+]},
+{
+"heading": "MATERIALS ON-SITE",
+"num": ["6a.", "6b."],
+"description": [
+  "Materials delivered to site become the responsibility of the client. The contractor accepts no responsibility for loss damage or expense after delivery of materials to site for any reason.",
+  "Any material brought to, or removed from the site, excess to the contractor’s requirements remains the possession of and removable by the contractor who shall have the right to enter the site for that purpose."
+]},
+{
+"heading": "MAINTENANCE AFTER COMPLETION",
+"num": ["7a."],
+"description": [
+  "The contractor undertakes to execute the scope of this contract. The proper maintenance of the site however passes to the client upon practical completion, unless otherwise agreed in writing. Practical completion is deemed to take place as specified by the contractor."
+]},
+{
+"heading": "ACTING AGENTS",
+"num": ["8a."],
+"description": [
+  "The contractor has no responsibility, or liability for structural considerations, appearance of finish features, or overall management of works where an outside party has provided advice, drawings, or supervision, unless agreed in writing prior to start of contract. It is the responsibility of the agent to bring these terms of business to the attention of the client."
+]},
+{
+"heading": "WARRANTIES",
+"num": ["9a.", "9b.", "9c."],
+"description": [
+  "Refer to Guarantees for specific items.",
+  "The contractor accepts no liability for any negligent act, omission, or any default under this contract, unless specifically agreed in writing.",
+  "Any structural or appearance of finished features is at the discretion of the contractor, unless agreed in writing by the client or agent prior to the start of works. Where a written specification for the appearance of a feature is provided to the contractor, it is the responsibility of the client or agent to request a small sample of this finished work prior to the start of that specific feature. The contractor is not liable for any works necessary as a consequence of such an omission. This applies to both client and agent."
+]}
+]

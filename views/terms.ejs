@@ -7,77 +7,19 @@
   <p>The following terms and conditions apply to all estimates unless expressly
     modified in writing by Blockscapes, LLC.</p>
 </div>
+<% terms.forEach (function(term) { %>
+<div class="terms-section">
+  <h2 class="terms-section-heading"> <%= term.heading %> </h2>
+<% for (let i = 0; i < term.num.length; i++){ %>
+  <div class="terms-section-detail">
+    <h3 class="terms-numbers"> <%= term.num[i] %> </h3>
+    <p class="terms-description">
+      <%= term.description[i] %>
+      </p>
+      <% }; %>
+  </div>
+  <% }); %>
 
-<div class="terms-section">
-  <h2 class="terms-section-heading">DESCRIPTION OF WORK</h2>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1a.</h3>
-    <p class="terms-description">
-      Blockscapes, LLC (“the contractor”) shall carry out and complete hardscape
-      works described in the Estimate document in a good and workman like manner
-      and shall have no obligation to execute any further work unless otherwise
-      agreed in writing between the parties. If there shall be any discrepancy
-      between any specification and any drawing, the description contained in
-      specification shall prevail over the drawing.</p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1b.</h3>
-    <p class="terms-description">
-      The contract documents shall contain the estimate, the specification plans
-      and any other document referred to in the estimate. No qualification in any
-      acceptance issued by the client shall form part of the contract unless
-      specifically agreed to in writing by the contractor.</p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1c.</h3>
-    <p class="terms-description">Only the items on the estimate specification are
-      included, but all works are due for payment. All other requested works are
-      excluded.
-      </p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1d.</h3>
-    <p class="terms-description"> The client is responsible for obtaining any
-      necessary planning permission for the works and the fulfilling of statutory
-      requirements.
-      </p>
-  </div>
-</div>
-<div class="terms-section">
-  <h2 class="terms-section-heading">DESCRIPTION OF WORK</h2>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1a.</h3>
-    <p class="terms-description">
-      Blockscapes, LLC (“the contractor”) shall carry out and complete hardscape
-      works described in the Estimate document in a good and workman like manner
-      and shall have no obligation to execute any further work unless otherwise
-      agreed in writing between the parties. If there shall be any discrepancy
-      between any specification and any drawing, the description contained in
-      specification shall prevail over the drawing.</p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1b.</h3>
-    <p class="terms-description">
-      The contract documents shall contain the estimate, the specification plans
-      and any other document referred to in the estimate. No qualification in any
-      acceptance issued by the client shall form part of the contract unless
-      specifically agreed to in writing by the contractor.</p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1c.</h3>
-    <p class="terms-description">Only the items on the estimate specification are
-      included, but all works are due for payment. All other requested works are
-      excluded.
-      </p>
-  </div>
-  <div class="terms-section-detail">
-    <h3 class="terms-numbers">1d.</h3>
-    <p class="terms-description"> The client is responsible for obtaining any
-      necessary planning permission for the works and the fulfilling of statutory
-      requirements.
-      </p>
-  </div>
-</div>
 
 </section>
 

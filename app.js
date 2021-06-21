@@ -11,29 +11,38 @@ app.use(bodyParser.urlencoded({
 
 app.use(express.static(__dirname + '/public'));
 
-app.get("/", function(req, res) {
-  res.render("home");
-})
+const fs = require("fs");
+fs.readFile("terms.json", function(err, data) {
+  if (err) throw err;
+  const terms = JSON.parse(data)
 
-app.get("/about", function(req, res) {
-  res.render("about");
-})
 
-app.get("/contact", function(req, res) {
-  res.render("contact");
-})
+  app.get("/", function(req, res) {
+    res.render("home");
+  })
 
-app.get("/projects", function(req, res) {
-  res.render("projects");
-})
+  app.get("/about", function(req, res) {
+    res.render("about");
+  })
 
-app.get("/services", function(req, res) {
-  res.render("services");
-})
+  app.get("/contact", function(req, res) {
+    res.render("contact");
+  })
 
-app.get("/terms", function(req, res) {
-  res.render("terms");
-})
+  app.get("/projects", function(req, res) {
+    res.render("projects");
+  })
+
+  app.get("/services", function(req, res) {
+    res.render("services");
+  })
+
+  app.get("/terms", function(req, res) {
+    res.render("terms", {
+      terms: terms
+    });
+  });
+});
 
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server started on port 3000");
