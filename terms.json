@@ -17,11 +17,12 @@
 ]},
 {
 "heading": "PAYMENT",
-"num": ["3a.","3b.","3c.","3d.", "3e.", "3f."],
+"num": ["3a.","3b.","3c.","3d.", "3e.", "3f.", "3g"],
 "description": [
   "The client accepts that he/she will pay the contractor the full contract sum (all costs incurred) together with any tax properly chargeable upon the contract.",
   "All accounts are net and do not provide for any discounts or retentions.",
-  "A deposit of ⅓ to ½ of the project cost will be required prior to the start date. Deposits will be held in escrow for a period of five days following payment and are fully refundable during this time.  Deposit amounts after the five day “grace period” are refundable less the amount of materials already purchased, design time already in progress, and any loss of expenses incurred as a result at the discretion of the contractor.",
+  "Residential contract deposits of ⅓ to ½ of the project cost will be required prior to the start date. Deposits will be held in escrow for a period of five days following payment and are fully refundable during this time.  Deposit amounts after the five day “grace period” are refundable less the amount of materials already purchased, design time already in progress, and any loss of expenses incurred as a result at the discretion of the contractor.",
+  "General Contractor's deposits act as a non-refundable retainer. Time and services will still be billed in the event of a cancellation.",
   "Larger contracts may be broken into payments by draw. Frequency and amount will be agreed upon by client and contractor.",
   "Payments are immediately due on receipt of invoice.  The client will pay any extra works, or costs due to unknown difficulties or changes, which are not within the estimate.",
   "The contractor will only ask for the estimate price, unless there are any unforeseeable difficulties, or the work has been increased. In either case all work will be paid for."
@@ -36,10 +37,11 @@
 ]},
 {
 "heading": "DELAY/DISRUPTION",
-"num": ["5a.", "5b."],
+"num": ["5a.", "5b.", "5c."],
 "description": [
   "The contractor undertakes to use all reasonable endeavors to complete the work within a reasonable time or by a specific date if agreed. Under no circumstances shall the contractor incur any liability to the client for any untimely performance.",
-  "The contractor shall not be held responsible for any delays caused by weather which make contract execution impossible."
+  "The contractor shall not be held responsible for any delays caused by weather which make contract execution impossible.",
+  "Emergency service and holiday service will be charged 2.5x regular rates. We observe all state and federal holidays."
 ]},
 {
 "heading": "MATERIALS ON-SITE",

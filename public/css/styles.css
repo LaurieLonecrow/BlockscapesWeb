@@ -283,7 +283,6 @@ margin-right: auto;
 .terms-section {
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
 
 .terms-section-heading {
