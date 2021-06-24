@@ -286,6 +286,8 @@ margin-right: auto;
 }
 
 .terms-section-heading {
+  display: flex;
+  flex-direction: column;
   color: #818181;
   font-weight: 100;
 }
