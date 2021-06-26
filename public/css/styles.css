@@ -201,6 +201,28 @@ justify-content: space-around;
   font-weight: 100;
 }
 
+.service-page-detail {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.service-page-column {
+  display: flex;
+  gap: 2%;
+  margin-top: 20px;
+}
+
+.service-page-column h2, h3 {
+  color: #40bf4f;
+  font-weight: 100;
+}
+
+.service-page-image {
+  max-width: 400px;
+}
+
+
 /* About */
 .about-section {
   display: flex;
