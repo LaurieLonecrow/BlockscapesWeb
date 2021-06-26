@@ -201,6 +201,9 @@ justify-content: space-around;
   font-weight: 100;
 }
 
+.read-more {
+  text-decoration: none;
+}
 .service-page-detail {
 display: flex;
 flex-direction: column;
