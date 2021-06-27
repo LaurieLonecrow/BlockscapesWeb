@@ -183,7 +183,7 @@ max-height: 850px;
 
 .view-all {
   margin-right: 40%;
-  color: #40bf4f;
+  text-decoration: none;
 }
 
 .service-detail {
@@ -203,7 +203,9 @@ justify-content: space-around;
 
 .read-more {
   text-decoration: none;
+  color: #40bf4f;
 }
+
 .service-page-detail {
 display: flex;
 flex-direction: column;
